@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.navbar{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content:end;
+}
+.navbar2{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content:end;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 50px;
+
+}
+
+#logout{
+    border: none;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+#logout:hover{
+    background-color:  rgba(49, 168, 204,0.06);
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(6, 104, 134, 0.06) 0px 0px 0px 1px;
+}
+.logo{
+    position: absolute;
+    left: 20px;
+}
+
+input[type="file"] {
+    cursor: pointer !Important;
+    font: 300 14px sans-serif;
+    color:#9e9e9e;
+  }
+  input[type="file"]::-webkit-file-upload-button
+  {
+    font: 300 14px  sans-serif;
+    background: #009688;
+    border: 0;
+    padding: 12px 25px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+  }
+   
+  input[type="file"]::-ms-browse {
+    font: 300 14px 'Roboto', sans-serif;
+    background: #009688;
+    border: 0;
+    padding: 12px 25px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+#submit{
+    font: 300 14px  sans-serif;
+    background: #009688;
+    border: 0;
+    height: 40px;
+    padding: 12px 25px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
+#download{
+    font: 300 14px  sans-serif;
+    background: #009688;
+    border: 0;
+    height: 40px;
+    padding: 12px 25px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#form{
+    margin-top: 150px;
+    width: 577px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+#title{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    text-align: center;
+}
