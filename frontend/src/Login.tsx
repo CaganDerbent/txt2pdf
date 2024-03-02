@@ -1,23 +1,11 @@
 import { GoogleLogin } from '@react-oauth/google';
 import { jwtDecode } from "jwt-decode";
 import { useNavigate } from 'react-router-dom';
-import { useGoogleLogin,googleLogout } from '@react-oauth/google';
 import { useRef } from 'react';
 
 const Login = ()=>{
 
     const navigate:any = useNavigate();
-    const googleLoginRef = useRef<HTMLButtonElement | null>(null); 
-
-    const handleGoogleLoginClick = () => {
-        (googleLoginRef.current as HTMLButtonElement).click(); 
-      
-     
-    };
-
-   
-
-   
 
     return(
       <>
@@ -45,7 +33,7 @@ const Login = ()=>{
        </div>
    
     </div>
-    <h1 id='title'>TXT dosyasını PDF dosyasına dönüştür !</h1>
+    <h1 id='title'>Convert TXT files to PDF !</h1>
        
         
      

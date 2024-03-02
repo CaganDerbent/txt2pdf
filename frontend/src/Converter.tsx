@@ -86,17 +86,17 @@ document.body.removeChild(a);
     <div className="user" style={{gap:"10px"}}>
     <img src={`${userData.picture}`} alt="" style={{width:"40px",height:"40px",borderRadius:"50px"}} />
         <h2>{userData.given_name}</h2>
-        <button  id="logout" onClick={handleLogout} style={{width:"130px",height:"40px",boxShadow:"rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;",marginLeft:"50px",fontWeight:"600"}}> <img src={`${icon}`} alt="" style={{width:"30px",height:"30px"}} />Çıkış yap</button>
+        <button  id="logout" onClick={handleLogout} style={{width:"130px",height:"40px",boxShadow:"rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;",marginLeft:"50px",fontWeight:"600"}}> <img src={`${icon}`} alt="" style={{width:"30px",height:"30px"}} />Logout</button>
     </div>
     </div>
       <div>
         
         
-         <h1 id='title'>TXT dosyasını PDF dosyasına dönüştür !</h1>
+         <h1 id='title'>Convert TXT files to PDF !</h1>
         <form onSubmit={handleSubmit} id='form'>
           <input type="file" onChange={handleFileChange} accept='.txt'  />
-          <button id='submit' type='submit'>ONAYLA</button>
-          {response ? <button id='download' onClick={download} style={{marginLeft:"100px"}}>İNDİR  <i className="fa-solid fa-download" style={{color:"#fff"}}></i></button> : ""}
+          <button id='submit' type='submit'>SEND</button>
+          {response ? <button id='download' onClick={download} style={{marginLeft:"100px"}}>DOWNLOAD <i className="fa-solid fa-download" style={{color:"#fff"}}></i></button> : ""}
         </form>
         
       </div>
