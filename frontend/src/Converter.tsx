@@ -96,7 +96,7 @@ document.body.removeChild(a);
         <form onSubmit={handleSubmit} id='form'>
           <input type="file" onChange={handleFileChange} accept='.txt'  />
           <button id='submit' type='submit'>SEND</button>
-          {response ? <button id='download' onClick={download} style={{marginLeft:"100px"}}>DOWNLOAD <i className="fa-solid fa-download" style={{color:"#fff"}}></i></button> : ""}
+          {response ? <button id='download' onClick={download}style={{marginLeft:"10px"}}>DOWNLOAD <i className="fa-solid fa-download" style={{color:"#fff"}}></i></button> : ""}
         </form>
         
       </div>
